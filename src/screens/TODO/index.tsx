@@ -79,7 +79,7 @@ export function TODO() {
         style={styles.todoItemArea}
       >
         <View style={styles.todoItemTextAndIconArea}>
-          <Icon name="book" size={24} />
+          <Icon name="tasks" size={24} />
           <View style={styles.todoItemTextArea}>
             <Text style={styles.todoItemDetail}>{description}</Text>
           </View>
