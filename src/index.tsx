@@ -1,8 +1,18 @@
 import React from 'react';
+import { StatusBar } from 'react-native';
 
-// Screen
-import { TODO } from './screens/TODO';
+// Screens
+import TodoList from './screens/TodoList';
 
 export default function App() {
-  return <TODO />;
+  return (
+    <>
+      <StatusBar 
+        barStyle="light-content" 
+        translucent 
+        backgroundColor="transparent" 
+      />
+      <TodoList />
+    </>
+  )
 }
